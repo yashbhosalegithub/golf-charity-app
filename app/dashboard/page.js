@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react"
 import { supabase } from "@/lib/supabase"
 
+
 export default function Dashboard() {
   const [user, setUser] = useState(null)
   const [score, setScore] = useState("")
